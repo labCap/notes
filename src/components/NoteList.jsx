@@ -1,10 +1,12 @@
 import React from "react";
 import { Note } from "./Note";
 
-export const NoteList = () => {
+export const NoteList = ({ notes }) => {
   return (
     <div className="note-list">
-      <Note />
+      {notes.map(({ id, text, date }) => (
+        <Note key={id} id={id} text={text} date={date} />
+      ))}
     </div>
   );
 };
