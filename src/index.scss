@@ -34,8 +34,8 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  &__footer {
+  white-space: pre-wrap;
+  w &__footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
