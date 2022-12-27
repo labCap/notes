@@ -40,6 +40,28 @@ code {
     align-items: center;
     justify-content: space-between;
   }
+
+  &.new {
+    background-color: #67d7cc;
+  }
+}
+
+textarea {
+  border: none;
+  resize: none;
+  background-color: transparent;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.save {
+  background-color: #e1e1e1;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
 .delete-icon {
