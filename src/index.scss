@@ -35,7 +35,8 @@ code {
   flex-direction: column;
   justify-content: space-between;
   white-space: pre-wrap;
-  w &__footer {
+
+  &__footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
