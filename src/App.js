@@ -1,7 +1,10 @@
+import { NoteList } from "./components/NoteList";
 
 function App() {
   return (
-    <div>ok</div>
+    <div className="container">
+      <NoteList />
+    </div>
   );
 }
 
