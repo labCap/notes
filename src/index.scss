@@ -20,6 +20,12 @@ code {
   padding: 0 15px;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .notes-list {
   display: grid;
   grid-gap: 1rem;
